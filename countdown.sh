@@ -34,7 +34,7 @@ fi
 # We end up with TARGET_EPOCH as the target date in seconds since 
 #   The Epoch. It doesn't #   matter what the 'Epoch' is in this case -- 
 #   it's just some time in the past.
-TARGET_EPOCH=`date --date "$1" +%s`
+TARGET_EPOCH=`date --date "$TARGET_DATE" +%s`
 if (( TARGET_EPOCH == 0 )); then
   exit 1
 fi

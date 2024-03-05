@@ -1,5 +1,7 @@
 # countdown.sh -- display a running countdown time
 
+Version 0.1a
+
 This is a simple Bash script for the Linux console, that displays a running
 time until some specific event. 
 
